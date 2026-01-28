@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+
+# Ignore all common data formats
+*.csv
+*.json
+*.jsonl
+*.parquet
+*.tsv
+*.zip
+*.tar.gz
+*.hdf5
+
+# Ignore specific folders where you keep data
+data/
+datasets/
+raw_data/
